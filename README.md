@@ -1,6 +1,6 @@
 # gatsby-theme-overreacted-toggle
 
-A Gatsby theme that implements Dan Abramovs dark mode toggle and add to your Gatsby sites gatsby-config.js just like you would with a plugin. 
+A Gatsby theme that implements Dan Abramovs dark mode toggle. Add to your Gatsby sites gatsby-config.js just like you would with a plugin. 
 
 ---
 
@@ -61,7 +61,7 @@ export default {
 };
 ```
 
-To override the colors create a new folder in your src folder named `gatsby-plugin-theme-ui` Inside this folder create an `index.js` and cpoy the format of the above original, changing the colors to whatever you want.
+To override the colors create a new folder in your `src` folder named `gatsby-plugin-theme-ui` Inside this folder create an `index.js` and copy the format of the above original, changing the colors to whatever you want.
 
 To use these colors in your components import jsx from theme ui and add the jsx pragma. You can then use the sx prop and style any element inline. In the below example we are changing the `h1` color to that of the primary color set in the shadowed `gatsby-plugin-theme-ui` index file. 
 
