@@ -1,0 +1,17 @@
+{
+  "name": "gatsby-theme-overreacted-toggle",
+  "version": "0.0.1",
+  "description": "The dark mode toggle used in Dan Abramovs blog site",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+    "keywords": [
+      "gatsby",
+      "gatsby-theme",
+      "react"
+    ],
+    "workspaces": [
+      "site",
+      "packages/*"
+    ]
+}

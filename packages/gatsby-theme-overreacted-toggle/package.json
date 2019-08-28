@@ -1,0 +1,32 @@
+{
+  "name": "gatsby-theme-overreacted-toggle",
+  "version": "0.0.1",
+  "description": "The dark mode toggle used in Dan Abramovs blog site",
+  "main": "index.js",
+  "author": "Hungry Bear Studio <roar@hungrybearstudio.com>",
+  "license": "MIT",
+    "keywords": [
+      "gatsby",
+      "gatsby-theme",
+      "gatsby-plugin",
+      "react"
+    ],
+  "devDependencies": {
+    "gatsby": "^2.14.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
+  "peerDependencies": {
+    "gatsby": "^2.14.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
+  "dependencies": {
+    "@emotion/core": "^10.0.16",
+    "@mdx-js/react": "^1.4.0",
+    "gatsby-plugin-compile-es6-packages": "^2.1.0",
+    "gatsby-plugin-theme-ui": "^0.2.34",
+    "react-switch": "^5.0.1",
+    "theme-ui": "^0.2.36"
+  }
+}
