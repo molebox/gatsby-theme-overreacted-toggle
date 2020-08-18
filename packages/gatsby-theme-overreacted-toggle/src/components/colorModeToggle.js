@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import { jsx, useColorMode } from 'theme-ui';
-import sun from '../../assets/sun.png';
-import moon from '../../assets/moon.png';
+import sun from './sun.png';
+import moon from './moon.png';
 import ReactSwitch from 'react-switch';
 
 const checkedIcon = (
